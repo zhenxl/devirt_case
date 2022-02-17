@@ -5,6 +5,6 @@ struct Base {
 };
 
 struct Derived : public Base {
-	virtual int get() override {return 1000;};
+	virtual int get() override {return 100;};
 };
 
